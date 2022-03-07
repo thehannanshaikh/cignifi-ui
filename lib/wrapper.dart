@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:cignifi_ui/colors.dart';
 import 'package:cignifi_ui/login.dart';
 import 'package:flutter/material.dart';
+import 'package:sizer/sizer.dart';
 
 class Wrapper extends StatefulWidget {
   const Wrapper({Key? key}) : super(key: key);
@@ -26,7 +27,7 @@ class _WrapperState extends State<Wrapper> {
         child: Center(
           child: Image.asset(
             'assets/images/cignifi_splash.webp',
-            width: 150,
+            width: 50.w,
           ),
         ),
       ),
